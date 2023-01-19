@@ -79,8 +79,8 @@ class ConfirmTokenTransactionCubit extends Cubit<ConfirmTokenTransactionState> {
           ),
         );
       } else {
-        final selectedEthereumNetwork =
-            manageNetworkCubit.state.network as EthereumNetwork;
+        // final selectedEthereumNetwork =
+        //     manageNetworkCubit.state.network as EthereumNetwork;
 
         //final web3RpcURL = selectedEthereumNetwork.rpcNodeUrl;
         await dotenv.load();
